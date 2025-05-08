@@ -4,22 +4,32 @@
   <meta charset="UTF-8">
   <title>News Portal</title>
   <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f5f5f5;
-      margin: 0;
-      padding: 20px;
-    }
-    .container {
-      max-width: 1000px;
-      margin: auto;
-    }
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
     article {
       background-color: #fff;
       padding: 25px;
       margin: 20px 0;
       border-radius: 8px;
       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+      height: 50%;
+      width: 50%;
     }
     article h2 {
       color: #2c3e50;
@@ -46,6 +56,8 @@
       <p>The new design increases energy output by 40%, paving the way for more accessible green energy options globally.</p>
     </article>
 
+
+<!-- 
     <article>
       <h2>Local Elections Shake Up City Council</h2>
       <p class="category">Category: Politics</p>
@@ -177,7 +189,7 @@
       <p class="category">Category: Business</p>
       <p>The new initiative includes grants, low-interest loans, and incentives for affordable housing development.</p>
       <p>It aims to reduce homelessness and ease pressure in urban real estate markets.</p>
-    </article>
+    </article> -->
 
   </div>
 </body>
